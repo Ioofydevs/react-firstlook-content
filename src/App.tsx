@@ -1,24 +1,36 @@
+// import { Greet } from 'components/props/GreetComponents/Greet';
+import Person from 'components/props/MorePropsComponents/Person';
+import { PersonList } from 'components/props/MorePropsComponents/PersonList';
+import Welcome from 'components/props/MorePropsComponents/Welcome';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
+  const personName = {
+    first: 'Dimitri',
+    last: 'Michaelescu',
+  };
+
+  const nameList = [
+    {
+      first: 'Bruce',
+      last: 'Wayne',
+    },
+    {
+      first: 'Mikhaelosva',
+      last: 'Romanov',
+    },
+    {
+      first: 'Samuel',
+      last: 'Digikov',
+    },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* <Greet name='Ioofy' age={19} address='Jln.Kebanggaan Bogor Indonesia' /> */}
+      <Welcome isLoggedIn={true} name='Samuel Konvezky' messageCount={25} />
+      <Person name={personName} />
+      <PersonList names={nameList} />
     </div>
   );
 }
