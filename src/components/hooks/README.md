@@ -24,6 +24,7 @@ Module ini merupakan projek open source, jadi pull request dipersilahkan. Bagi y
 
 - [https://reactjs.org/docs/hooks-reference.html](https://reactjs.org/docs/hooks-reference.html)
 - [https://reactjs.org/docs/hooks-faq.html](https://reactjs.org/docs/hooks-faq.html)
+- [https://github.com/natserract/react-hooks-deepdive](https://github.com/natserract/react-hooks-deepdive)
 
 ## Author
 
