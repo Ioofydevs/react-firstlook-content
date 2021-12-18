@@ -1,8 +1,8 @@
 // import { Greet } from 'components/props/GreetComponents/Greet';
 import Person from 'components/props/MorePropsComponents/Person';
-import { PersonList } from 'components/props/MorePropsComponents/PersonList';
 import Welcome from 'components/props/MorePropsComponents/Welcome';
 import React from 'react';
+import { PersonList } from 'components/props/MorePropsComponents/PersonList';
 
 function App() {
   const personName = {
